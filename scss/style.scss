@@ -1,0 +1,47 @@
+$ff-0: 'Open Sans', sans-serif;
+$ff-1: 'Roboto', sans-serif;
+$c-0: #fff;
+$c-1: #28a549;
+$c-2: #676a6c;
+$c-3: #29aa31;
+$c-4: #aeaeae;
+
+body {
+    color: $c-2;
+    font-family: $ff-0;
+    background-color: $c-0;
+    span.navy {
+        color: $c-1;
+    }
+    p.text-color {
+        color: $c-2;
+    }
+    a.navy-link {
+        color: $c-1;
+        text-decoration: none;
+        &:hover {
+            color: $c-3;
+        }
+    }
+    address {
+        font-size: 14px; 
+    }
+    section p {
+        color: $c-4;
+        font-size: 14px; 
+    }
+    h1 {
+        margin-top: 10px;
+        font-size: 30px;
+        font-weight: 200; 
+    }
+    .navy-line {
+        width: 60px;
+        height: 1px;
+        margin: 60px auto 0;
+        border-bottom: 2px solid $c-1; 
+    }
+}
+
+@import 'components/menu';
+@import 'components/slider';

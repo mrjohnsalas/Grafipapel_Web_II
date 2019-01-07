@@ -1,0 +1,27 @@
+body {
+  color: #676a6c;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff; }
+  body span.navy {
+    color: #28a549; }
+  body p.text-color {
+    color: #676a6c; }
+  body a.navy-link {
+    color: #28a549;
+    text-decoration: none; }
+    body a.navy-link:hover {
+      color: #29aa31; }
+  body address {
+    font-size: 14px; }
+  body section p {
+    color: #aeaeae;
+    font-size: 14px; }
+  body h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 200; }
+  body .navy-line {
+    width: 60px;
+    height: 1px;
+    margin: 60px auto 0;
+    border-bottom: 2px solid #28a549; }
